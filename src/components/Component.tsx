@@ -1,5 +1,11 @@
 import React from "react";
 
-export const Component = () => {
+export interface ButtonProps {
+  label: string;
+}
+
+const Component = ({ label }: ButtonProps) => {
   return <button>Component</button>
 }
+
+export default Component
