@@ -2,10 +2,9 @@
 
 var React = require('react');
 
-var Component = function (_a) {
-    _a.label;
-    return React.createElement("button", null, "Component");
+var Button = function (props) {
+    return React.createElement("button", null, props.label);
 };
 
-exports.Component = Component;
+exports.Component = Button;
 //# sourceMappingURL=index.js.map
